@@ -12,6 +12,11 @@
   "directories": {
     "example": "examples"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },  
   "scripts": {
     "test": "echo 'no tests yet' && exit 0"
   },
